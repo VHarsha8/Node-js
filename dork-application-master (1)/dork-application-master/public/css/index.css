@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+body {
+    font-family:"Sora", sans-serif;
+}
+
+h1 {
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #333; /* You can change the color as per your preference */
+    font-size: 80px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.name-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper {
+    width: 40%;
+}
+
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 200px;
+    font-size: 30px;
+    color: #333;
+    font-style: italic;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000; /* Set the background color */
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(51, 100%, 75%); /* Darker blue on hover */
+}
+
+/* Style for the "Sign Up" button */
+button.signup {
+    background-color: #2ecc71; /* Green color */
+}
+
+button.signup:hover {
+    background-color: #3c5546; /* Darker green on hover */
+}
+
+
+
+/* styles.css */
+
+
+
+
+#features {
+    margin: 100px;
+  }
+  
+  #features .container .row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  #features .container .row .col {
+    flex: 0 0 auto;
+    width: 33.333333%;
+  }
