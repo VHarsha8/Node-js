@@ -1,34 +1,25 @@
-<!-- views/login.ejs -->
+<!-- views/card.ejs -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet"  href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<script src="https://kit.fontawesome.com/8045a273a1.js" crossorigin="anonymous"></script>
-
+    <title>My Tailwind CSS Card</title>
+    <link href="styles/style.css" rel="stylesheet">
 </head>
-
-<body class="bg-slate-700 ">
-
-            <div class="grid items-center justify-center w-full h-screen">
-                <form class="relative group">
-                    <div class="flex flex-col gap-4">
-                        <input class="w-64 py-2 pl-4 text-sm leading-6 border-none rounded-md shadow-lg outline-none appearance-none md:w-80 bg-slate-600 focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-300 placeholder-slate-300 " type="text" aria-label="Filter projects" placeholder="Username...">
-                        <input class="w-64 py-2 pl-4 text-sm leading-6 border-none rounded-md outline-none appearance-none md:w-80 bg-slate-600 focus:ring-blue-700 focus:ring-2 focus:bg-slate-800 text-slate-300 placeholder-slate-300 " placeholder="Password" type="password">
-
-                    </div>
-                 </form>
-            </div>
-            
-            
-
+<body>
+    <div class="max-w-sm overflow-hidden rounded shadow-lg">
+        <img class="w-full" src="styles/img/Hand coding-bro.png" alt="Card Image">
+        <div class="px-6 py-4">
+            <div class="mb-2 text-xl font-bold">Image</div>
+            <p class="text-base text-gray-700">
+                Image one in this
+            </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+            <span class="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#tag1</span>
+            <span class="inline-block px-3 py-1 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#tag2</span>
+        </div>
+    </div>
 </body>
-
 </html>
